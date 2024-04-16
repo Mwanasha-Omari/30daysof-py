@@ -97,9 +97,11 @@ print(round(average,1))
 
 
 # Find the range of the ages (max minus min)
-
-
+for ages in range(19,26):
+    print(ages)
 
 # Compare the value of (min - average) and (max - average), use abs() method
-    
+    for number in ages:
+       absolute_value = abs(number)
+    print(f'Number: {number}, Absolute Value: {absolute_value}')
 
